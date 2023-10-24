@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css" type="text/css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="contenedor">
+        <button class="switch" id="switch">
+            <span><img src="img/btn/sun-solid.svg" width="15px"></span>
+            <span><img src="img/btn/moon-solid.svg" width="15px"></span>
+        </button>
+    <form action="">
+        <input type="text" id="numero1">
+        <p>+</p>
+        <input type="text" id="numero2">
+        <p>=</p>
+        <input type="text" id="resultado" readonly>
+        <input type="button" onclick="suma()" class="btn" value="Resultado">
+    </form>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
