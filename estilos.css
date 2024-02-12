@@ -9,7 +9,7 @@
 body {
     font-family: Arial, sans-serif;
     color: #cf5c36;
-    background: url(y-so-serious-white.png)
+    background: url(img/y-so-serious-white.png)
 }
 
 
@@ -104,5 +104,5 @@ body.dark .contenedor {
 }
 
 body.dark{
-    background: url(y-so-serious.png);
+    background: url(img/y-so-serious.png);
 }
